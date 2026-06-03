@@ -8,8 +8,9 @@ public class DBC {
     public static Connection DBConnect(){
         Connection con = null;
 
-        String user = "ICIA";       // 아이디
-        String password = "1111";   // 비밀번호
+        // 본인 DB 접속 정보로 교체하세요.
+        String user = "<DB_USER>";          // 아이디
+        String password = "<DB_PASSWORD>";  // 비밀번호
         String url = "jdbc:oracle:thin:@localhost:1521:XE";
 
         try {
