@@ -35,7 +35,7 @@ public class BookRidgeApplication {
             while (status) {
                 try {
                     if (loggedInUser == null) { // 로그인되지 않은 상태
-                        System.out.println("\n << Team Six의 도서관리 프로그램 >> ");
+                        System.out.println("\n << 온라인 도서 관리 시스템 >> ");
                         System.out.println(GREEN_BRIGHT + BOLD + "   ___                     _                _        _     __ _          " + RESET + "\n" +
                                 GREEN + BOLD + "  | _ )    ___     ___    | |__     _ _    (_)    __| |   / _` |   ___   " + RESET + "\n" +
                                 CYAN + BOLD + "  | _ \\   / _ \\   / _ \\   | / /    | '_|   | |   / _` |   \\__, |  / -_)  " + RESET + "\n" +
